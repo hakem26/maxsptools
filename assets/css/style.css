@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/Vazir-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "vazirb";
+  src: url("../fonts/Vazir-Bold.woff2") format("woff2");
+}
+
+body {
+  font-family: "vazir" !important;
+}
+
+nav .navbar-nav li a {
+  font-family: "vazirb" !important;
+  color: #888;
+  text-decoration: none;
+  transition: all ease-in-out 0.5s;
+}
+.flag-usa-txt {
+  font-size: 6px;
+}
+.flag-usa {
+  color: #888;
+  transition: all ease-in-out 0.5s;
+}
+.flag-usa:hover {
+  color: #f3b41d;
+}
+
+nav .navbar-nav li a:hover {
+  color: #f3b41d;
+  border-bottom: 1px solid #f3b41d;
+}
