@@ -6,9 +6,27 @@
   font-family: "vazirb";
   src: url("../fonts/Vazir-Bold.woff2") format("woff2");
 }
+@font-face {
+  font-family: "vazirbl";
+  src: url("../fonts/Vazir-Black.woff2") format("woff2");
+}
 
 body {
   font-family: "vazir" !important;
+}
+
+h1,
+h2,
+h3,
+.font-black {
+  font-family: "vazirbl";
+}
+
+h4,
+h5,
+h6,
+.font-bold {
+  font-family: "vazirb";
 }
 
 nav .navbar-nav li a {
@@ -31,4 +49,41 @@ nav .navbar-nav li a {
 nav .navbar-nav li a:hover {
   color: #f3b41d;
   border-bottom: 1px solid #f3b41d;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* remove the gap so it doesn't close */
+}
+
+@media (min-width: 992px) {
+}
+
+.text-lg-justify {
+  text-align: justify;
+}
+
+.carousel-item img {
+  height: 600px; /* Set the desired height for the carousel images */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire area */
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Black with 0.7 opacity */
+  z-index: 1; /* Set a higher z-index to ensure it's above the image */
+}
+
+.carousel-caption {
+  position: relative;
+  z-index: 2; /* Set a higher z-index than the overlay to ensure it's above the overlay */
 }
