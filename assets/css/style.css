@@ -87,3 +87,8 @@ nav .navbar-nav li a:hover {
   position: relative;
   z-index: 2; /* Set a higher z-index than the overlay to ensure it's above the overlay */
 }
+
+.text-warning-decoration {
+  color: black; /* Set text color to black */
+  border-color: #ffc107; /* Set border color to warning color */
+}
