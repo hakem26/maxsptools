@@ -92,3 +92,24 @@ nav .navbar-nav li a:hover {
   color: black; /* Set text color to black */
   border-color: #ffc107; /* Set border color to warning color */
 }
+
+/* Style for circular icon container */
+.icon-container {
+  width: 60px; /* Adjust size as needed */
+  height: 60px; /* Adjust size as needed */
+  border-radius: 50%; /* Makes it a circle */
+  border: 2px solid; /* Border color and width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-border-warning {
+  border-color: #f3b41d;
+}
+
+/* Additional styles for icon */
+.icon {
+  font-size: 24px; /* Adjust icon size as needed */
+  color: #333; /* Adjust icon color as needed */
+}
