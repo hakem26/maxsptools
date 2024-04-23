@@ -36,9 +36,3 @@ document.addEventListener("DOMContentLoaded", function () {
     // Call the function initially to load the visible content on page load
     lazyLoadContent();
 });
-
-
-
-$(function () {
-    $("#nav").load("../../content/main/nav.html");
-});

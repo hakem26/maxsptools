@@ -122,3 +122,27 @@ nav .navbar-nav li a:hover {
   opacity: 1;
   transition: opacity 0.7s ease-in-out;
 }
+
+.footer-col {
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer-col:last-child {
+  border-left: none;
+}
+
+.text-warning {
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .footer-col {
+    border-left: 0;
+  }
+}
+
+.icon-text-container {
+  display: flex;
+  align-items: center; /* قرار دادن موارد در مرکز عمودی */
+  justify-content: center; /* قرار دادن موارد در مرکز افقی */
+}
