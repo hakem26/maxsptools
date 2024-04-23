@@ -146,3 +146,7 @@ nav .navbar-nav li a:hover {
   align-items: center; /* قرار دادن موارد در مرکز عمودی */
   justify-content: center; /* قرار دادن موارد در مرکز افقی */
 }
+
+.text-justify {
+  text-align: justify;
+}
