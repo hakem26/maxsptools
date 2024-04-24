@@ -150,3 +150,11 @@ nav .navbar-nav li a:hover {
 .text-justify {
   text-align: justify;
 }
+
+.menu-title strong {
+  color: #888;
+}
+
+.menu-title em {
+  color: #f3b41d;
+}
