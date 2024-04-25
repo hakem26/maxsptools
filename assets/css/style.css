@@ -29,12 +29,19 @@ h6,
   font-family: "vazirb";
 }
 
-nav .navbar-nav li a {
+nav .navbar-nav li a,
+nav .navbar-nav li button {
   font-family: "vazirb" !important;
   color: #888;
   text-decoration: none;
   transition: all ease-in-out 0.5s;
 }
+nav .navbar-nav li a:hover,
+nav .navbar-nav li button:hover {
+  color: #f3b41d;
+  border-bottom: 1px solid #f3b41d;
+}
+
 .flag-usa-txt {
   font-size: 6px;
 }
@@ -44,11 +51,6 @@ nav .navbar-nav li a {
 }
 .flag-usa:hover {
   color: #f3b41d;
-}
-
-nav .navbar-nav li a:hover {
-  color: #f3b41d;
-  border-bottom: 1px solid #f3b41d;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -157,4 +159,33 @@ nav .navbar-nav li a:hover {
 
 .menu-title em {
   color: #f3b41d;
+}
+
+.go-top {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  z-index: 5;
+  width: 50px;
+  height: 50px;
+  background-color: #f3b41d;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0px 0px 8px 1px rgba(136, 136, 136, 0.69);
+  transition: all 0.5s ease-in-out;
+}
+
+.go-top:hover {
+  background-color: #dba21d;
+}
+
+.go-top i {
+  color: purple;
+}
+
+.go-top:hover.go-top i {
+  color: #333;
 }

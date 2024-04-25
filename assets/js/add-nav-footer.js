@@ -5,3 +5,10 @@ $(function () {
     // Include footer
     $("#footer-placeholder").load("footer.html");
 });
+
+document.getElementById("goTop").addEventListener("click", function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
